@@ -1,0 +1,20 @@
+{
+  "name": "banana-client",
+  "version": "0.0.1",
+  "description": "test client for demonstration purposes, for our talk 'banana for scale'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "client",
+    "banana",
+    "scaling"
+  ],
+  "author": "chris@uber5.com",
+  "license": "ISC",
+  "dependencies": {
+    "request": "~2.42.0"
+  }
+}

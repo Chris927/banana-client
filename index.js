@@ -18,7 +18,8 @@ program.command('*')
       var start = new Date().getTime();
       request({
         url: url,
-        method: program.method
+        method: program.method,
+        pool: false
       }, function(err, response, body) {
         console.log('time taken: %dms', (new Date().getTime() - start));
         if (err) console.error(err);
